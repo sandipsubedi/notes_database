@@ -1,4 +1,4 @@
-## dump database:
+## Copy Database
 
 - Excluding data from `users` table.
 ```ruby
@@ -10,7 +10,7 @@ pg_dump -h host.com -U postgres -W --exclude-table-data=users -F p postgres > du
 pg_dump -h host.com -U postgres -W --exclude-table-data=users -F p postgres > dump_data.sql -v
 ```
 
-## shows the file with size:
+## Show the file with size:
 ```
  ls -lh dump_data.sql
 ```
