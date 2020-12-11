@@ -1,22 +1,22 @@
 # Basic Commands:
 
-## Get into psql session
+### Get into psql session
 
 ```
 psql template1
 ```
 
-## Get list of all the databases:
+### Get list of all the databases:
 ```
 \l
 ```
 
-## exit
+### Exit
 ```
 \q
 ```
 
-## Drop and create database:
+### Drop and create database:
 
 ```
 drop database <database_name>;
